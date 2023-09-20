@@ -148,7 +148,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Laba_2.cpp" />
+    <ClCompile Include="Algorithms.cpp" />
+    <ClCompile Include="CellMapClass.cpp" />
+    <ClCompile Include="Greetings.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Module_tests.cpp" />
+    <ClCompile Include="Settings.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algorithms.h" />
+    <ClInclude Include="CellMapClass.h" />
+    <ClInclude Include="Greetings.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="Module_tests.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
